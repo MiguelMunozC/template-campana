@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+
 
 </head>
 <body>
@@ -29,18 +31,31 @@
     </nav>
 
     <!--CONTENEDOR PRINCIPAL-->
-    <div class="contenido container">
+    <div class="container contenido">
 
         <div class="row">
             <!--CONTENEDOR CENTRAL-->
             <div class="centro col-md-8">
+
                 <h1>Comienza un piloto #SIMCE2017 por 10 días en tu colegio</h1>
-                <h4 class="descripcion">Para mejorar tus resultados de aprendizaje debes poder anticiparte
+
+                <div class="centro-texto1">
+                    <hr>
+                    <h4 class="descripcion">Para mejorar tus resultados de aprendizaje debes poder anticiparte
                     y detectar los objetivos de aprendizaje más débiles de tu colegio y así diseñar
                     acciones remediales oportunas.
-                </h4>
+                    </h4>
+                </div>
 
-                <div>
+                <div class="centro-video">
+
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe id="vid_frame" src="https://www.youtube.com/embed/Qo5-Sfp69-g" width="560" height="315" frameborder="0"></iframe>
+                    </div>
+
+                </div>
+
+                <div class="centro-texto2">
                     <h4>Nueva Visión</h4>
                     <p>
                         Lirmi.com es la única plataforma especialista en la gestión del curriculum
@@ -98,39 +113,35 @@
                         <button type="submit" class="form-control btn btn-success">Solicitar Simce en línea</button>
                     </form>
 
-
-
                 </div>
             </div>
 
         </div>
 
-
-
     </div>
 
-    <div class="container">
+    <hr>
+
+    <div class="container contenido2">
 
         <div class="row">
 
             <div class="col-xs-12">
                 <h1>¿En qué consiste el piloto gratuito de #SIMCE2017?</h1>
-                <p>
+                <p class="contenido2-parrafo">
                     Te damos acceso a nuestra plataforma por 10 días para que apliques 2 evaluaciones SIMCE que pondremos a tu disposición,
                     y puedas ver de forma concreta la diferencia de trabajar con la mejor herramienta de gestión curricular de Chile.
                     Este acceso contempla capacitación y acompañamiento de un profesional de Lirmi.com, tal como si fuera un cliente pagando por el servicio.
                 </p>
             </div>
-            <div class="col-xs-12">
-
-            </div>
-
+           
         </div>
 
-        <div class="row">
+        <div class="row pasos">
 
             <div class="col-md-4">
 
+                <img src="img/imagen-01.svg" alt="Evaluaciones">
                 <h3>Aplica nuestras evaluaciones</h3>
                 <p>
                     Lirmi te entrega evaluaciones tipo Simce de alta calidad,
@@ -141,6 +152,7 @@
             </div>
             <div class="col-md-4">
 
+                <img src="img/imagen-02.svg" alt="Resultados">
                 <h3>Obtén resultados instantáneos</h3>
                 <p>
                     Lirmi te entrega resultados enfocados en niveles de logro,
@@ -151,6 +163,7 @@
             </div>
             <div class="col-md-4">
 
+                <img src="img/imagen-03.svg" alt="Comenzar">
                 <h3>Comienza a mejorar HOY</h3>
                 <p>
                     Ya tienes información oportuna para plantear reuniones técnicas
