@@ -1,11 +1,6 @@
 html {
     min-height: 100%;
-    /*position: relative;*/
 }
-/*body {*/
-    /*margin: 0;*/
-    /*margin-bottom: 40px;*/
-/*}*/
 a, p, h1, h2, h3, h4, h5, h6{
     font-family: 'Open Sans';
 }
@@ -48,6 +43,10 @@ a:hover{
 }
 
 /*CONTENEDOR PRINCIPAL*/
+
+.contenido .row{
+    position: relative;
+}
 
 /*CENTRO*/
 .centro{
@@ -113,6 +112,8 @@ hr{
 
 /*SIDEBAR*/
 .side{
+    position: absolute;
+    right:0;
     background-color: #f4f5f7;
     height: 100%;
     padding: 10px 30px 30px 30px;
@@ -124,8 +125,6 @@ hr{
 /*FOOTER*/
 .footer{
     background-color: #32353a;
-    /*position: absolute;*/
-    /*bottom: 0;*/
     width: 100%;
 }
 .footer-cont, .footer-cont p{
@@ -150,11 +149,11 @@ hr{
 }
 
 
-
-/*@media (max-width:992px) {*/
-    /*!*.side{*!*/
-        /*!*height: 100%;*!*/
-        /*!*padding: 1px 20px;*!*/
-        /*!*padding-bottom: 15px;*!*/
-    /*!*}*!*/
-/*}*/
+/*MEDIA QUERIES*/
+@media (max-width:992px) {
+    .side{
+        position: static;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+}
